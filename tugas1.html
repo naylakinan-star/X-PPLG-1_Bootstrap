@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+     <style>
+        .hero {
+            background-image:url("asset/frank\ ocean\ sito.jpeg");
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="overlay d-flex justify-content-center align-items-center text-center">
+            <div class="text-white">
+                <h1 class="display-5 fw-bold">Selamat datang di website saya</h1>
+                <p class="fs-4">Disajikan gambar dan data yang lengkap</p>
+                <button class="btn btn-info">Lihat selengkapnya</button>
+                <button class="btn btn-outline-info">Nanti dulu</button>
+            </div>
+        </div>
+    </div>
+    <div class="card container">
+        <h2 class="text-center">Tabel data siswa</h2>
+        <br />
+
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr class="success">
+                <th>No</th>
+                <th>Foto</th>
+                <th>Nama</th>
+                <th>kelas</th>
+                <th>Keterangan</th>
+                <th>Aksi</th>
+            </tr>
+            </thead>
+
+            <tbody class="align-middle text-center">
+                <tr>
+                    <td>1.</td>
+                    <td><img src="download (13).jpeg" class="rounded-circle img-fluid" alt="kucing" style="width:80px"></td>
+                    <td>Jedan</td>
+                    <td>X PPLG 1</td>
+                    <td><span class="badge bg-success">Aktif</span></td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>
+                        <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td><img src="download (13).jpeg" class="rounded-circle img-fluid" alt="kucing" style="width:80px"></td>
+                    <td>Keenan</td>
+                    <td>X PPLG 2</td>
+                    <td><span class="badge bg-warning">Izin</span></td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>
+                        <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><img src="download (13).jpeg" class="rounded-circle img-fluid" alt="kucing" style="width:80px"></td>
+                    <td>Reyhan</td>
+                    <td>X PPLG 3</td>
+                    <td><span class="badge bg-danger">Alfa</span></td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>
+                        <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container text-center">
+        <button class="btn btn-info">Kirim</button>
+        <button class="btn btn-outline-info">Batalkan</button>
+        </div>
+    </div>
+</body>
+</html>
